@@ -10,6 +10,5 @@ import com.nexeo.market.model.Product;
 public interface OfferRepository extends JpaRepository<Offer, Integer>{
 
 	public List<Offer> getOfferByProduct(Product product);
-	public Offer getOfferById(Integer id);
 	
 }
