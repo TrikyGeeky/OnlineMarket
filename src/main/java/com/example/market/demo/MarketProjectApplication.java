@@ -11,5 +11,4 @@ public class MarketProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MarketProjectApplication.class, args);
 	}
-
 }
